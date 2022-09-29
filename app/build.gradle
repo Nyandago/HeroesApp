@@ -121,6 +121,16 @@ dependencies {
     // Palette API
     implementation "androidx.palette:palette-ktx:1.0.0"
 
+    //accompanist swipe to refresh
+    implementation "com.google.accompanist:accompanist-swiperefresh:0.24.4-alpha"
+
+    //system ui accompanist
+    implementation 'com.google.accompanist:accompanist-systemuicontroller:0.26.4-beta'
+
+    //Horizontal pagers and indicators - accompanist
+    implementation "com.google.accompanist:accompanist-pager:0.23.1"
+    implementation 'com.google.accompanist:accompanist-pager-indicators:0.10.0'
+
     // Testing
     androidTestImplementation "androidx.test:runner:1.4.0"
     androidTestImplementation "androidx.test:rules:1.4.0"
