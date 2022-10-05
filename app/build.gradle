@@ -80,6 +80,8 @@ dependencies {
     debugImplementation "androidx.compose.ui:ui-test-manifest:$compose_version"
 
 
+    api 'com.google.android.material:material:1.8.0-alpha01'
+
 
     //Compose Navigation
     implementation "androidx.navigation:navigation-compose:$nav_version"
