@@ -33,7 +33,7 @@ fun SplashScreen(navController: NavHostController){
         degrees.animateTo(
             targetValue = 360f,
             animationSpec = tween(
-                durationMillis = 1000,
+                durationMillis = 2000,
                 delayMillis = 200
             )
 
@@ -55,7 +55,7 @@ fun Splash(degrees: Float){
             contentAlignment = Alignment.Center
         ){
             Image(
-                modifier =Modifier.rotate(degrees = degrees),
+                modifier = Modifier.rotate(degrees = degrees),
                 painter = painterResource(id = R.drawable.ic_logo),
                 contentDescription = stringResource(R.string.app_logo),
             )
